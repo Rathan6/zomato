@@ -1,0 +1,450 @@
+  *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Okra, Helvetica, sans-serif;
+  }
+  section{
+    /* border: 2px solid; */
+    height: 450PX;
+    width: 100%;
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+
+  }
+
+  ul{
+    /* border:2px solid; */
+    height: 40px;
+    display: flex;
+    width: 550px;
+   margin-left: 650px;
+    justify-content:space-around ;
+    font-size: 120%;
+    color: white;
+    position: fixed;
+    margin-top: 10px;
+    cursor: pointer;
+    
+  }
+   span{
+    /* border: 2px solid; */
+    color: white;
+    position: absolute;
+   top: 20px;
+   margin-left: 60px;
+   cursor: pointer;
+
+   }
+   h1{
+    /* border: 2px solid; */
+    height: 50px;
+    font-size: 400%;
+    color:white;
+    
+    position: absolute;
+    top: 120px;
+    left: 39%;
+}
+  h2{
+    /* border: 2px solid; */
+    height: 50px;
+    font-size: 220%;
+    color:white;
+    
+    position: absolute;
+    top: 210px;
+    left: 19%;
+
+}
+  input
+  {
+    /* border: 2px solid; */
+    height: 55px;
+    width: 730px;
+    border-radius: 9px;
+    position: absolute;
+    top: 300px;
+    left: 20%;
+    padding-left: 300px;
+    font-weight: 50%;
+    /* position: fixed; */
+
+
+  }
+   section  i
+    {
+        /* border: 2px solid; */
+         position: absolute;
+        top: 300px;
+        left: 30%;
+        
+
+   }
+   
+   aside{
+    /* border: 2px solid red; */
+    
+   
+
+   }
+   aside #div {
+     /* border: 2px solid; */
+    height: 400px;
+    width: 100%;
+    display: flex;
+   padding-top: 50px;
+   /* padding-left: 15px; */
+   justify-content: space-around;
+   
+   
+
+   }
+      aside img{
+         /* border: 2px solid; */
+        height: 170px;
+        width: 280px;
+        border-radius: 10px;
+          
+      }
+      #div1{ 
+        /* border: 2px solid; */
+        
+        background-color: white;
+        position: absolute;
+        top: 640px;
+        right: 913px;
+        /* position: fixed; */
+
+      }
+      #div2{ 
+        /* border: 2px solid; */
+        background-color: white;
+        position: absolute;
+        top: 640px;
+        right: 495px;
+
+      } #div3{ 
+        /* border: 2px solid; */
+        background-color: white;
+        position: absolute;
+        top: 640px;
+        right: 78px;
+      }
+      aside img:hover{
+        /* border: 2px solid red; */
+        transform: scale(1.2,1);
+
+      }
+     #div1:hover{
+        /* border: 2px solid red; */
+        transform: scale(1.2,1);
+
+      }
+      #div2:hover{
+        /* border: 2px solid red; */
+        transform: scale(1.2,1);}
+
+        #div3:hover{
+            /* border: 2px solid red; */
+            transform: scale(1.2,1);}
+    
+
+      /* #div4{
+        border: 2px solid red;
+        transform: scale(1.2,1);
+
+      } 
+      #div5{
+        border: 2px solid red;
+        transform: scale(1.2,1);
+
+      }
+      #div6{
+        border: 2px solid red;
+        transform: scale(1.2,1);
+
+      } */
+
+      aside h2
+      {
+        /* border: 2px solid red; */
+        color: black;
+        position: absolute;
+        top: 800px;
+        left: 70px;
+      }
+      aside #p{
+        /* border: 2px solid;  */
+        padding-left: 65px;
+        padding-top:10px;
+        white-space: 5px;
+        font-weight: 500;
+      }
+      aside #p1{
+       /* border: 2px solid greenyellow; */
+      padding-left: 1020px;
+      margin-top: -20px;
+      }
+      #article {
+         /* border: 2px solid greenyellow; */
+         width: 80%;
+         display: flex;
+         padding-left: 0px;
+         justify-content: space-between;
+         margin-left: 130px;
+      
+       }
+       .class{ 
+         height: 10px;
+         width: 200px;
+         list-style: none;
+         padding-bottom: 30px;
+
+       }
+       big
+       { 
+        /* border: 2px solid greenyellow; */
+        height: 100px;
+        width: 80%;
+         font-size: 200%;
+         position: absolute;
+         top: 1280px;
+         left: 80px;
+       }
+       
+       
+       #button1{
+        /* border: 2px solid greenyellow; */
+        position: absolute;
+        top: 1380px;
+        left: 80px;
+        height:60px;
+        width: 1200px;
+       
+       display: flex;
+
+       justify-content: space-around;
+
+        /* display: flex;  */
+    }
+     button{
+        /* border: 2px solid red; */
+        height: 80px;
+        width: 350px;
+        justify-content: space-around;
+        font-size: 150%;
+        
+    }
+    #button2{
+        /* border: 2px solid greenyellow; */
+        position: absolute;
+        top: 1480px;
+        left: 80px;
+        height:60px;
+        width: 1200px;
+       
+       display: flex;
+
+       justify-content: space-around;}
+
+       #button3{
+        /* border: 2px solid greenyellow; */
+        position: absolute;
+        top: 1580px;
+        left: 80px;
+        height:60px;
+        width: 1200px;
+       
+       display: flex;
+
+       justify-content: space-around;}
+
+       #back{
+        /* border: 2px solid; */
+        height: 600px;
+        width: 100%;
+        background-color: rgb(255, 251, 247);
+        margin-top: 550px;
+       }
+
+       #back img{
+        /* border: 2px solid; */
+        height: 330px;
+        position: absolute;
+        left: 200px;
+        top: 1850px;
+        
+
+       } 
+       #back big{
+        /* border: 2px solid; */
+        position: absolute;
+        left: 150px;
+        top: 1820px;
+        width: 300px;
+        margin-left: 500px;
+
+
+       }
+       #back  p{
+        /* border: 2px solid; */
+        position: absolute;
+      right: 120px;
+        top: 1900px;
+        width: 600px;
+        margin-left: 900px;
+        font-size: larger;}
+
+          #input{
+            /* border: 2px solid; */
+            position: absolute;
+         left: 50%;
+            top: 2000px;
+            width: 300px;
+        }
+        #but{
+            /* border: 2px solid; */
+            background-color: red;
+            position: absolute;
+         left: 77%;
+            top: 2000px;
+            border-radius: 5px;
+            height: 60px;
+            width: 250px;
+        }
+
+
+          #back #ip6{
+        
+        
+            /* border: 2px solid; */
+     
+        /* background-color: red; */
+        position: absolute;
+         top: 2100px;
+       right: 30px;
+        
+        }
+        /* #img5{border:  2px solid; */
+            /* height: 20%;} */
+
+        /* }#img5 img{
+            border:  2px solid;
+            height: 10%; */
+
+        
+          span #net
+        {
+            /* border:  2px solid; */
+            height: 40px;
+           width: 100px;
+           position: absolute;
+         top:2150px ;
+         left: 600px;
+        }
+        span #net1
+        {
+            /* border:  2px solid; */
+            height: 40px;
+           width: 100px;
+           position: absolute;
+         top:2150px ;
+         left: 750px;
+        }
+
+        #item{
+            /* border:  2px solid; */
+            height: 500px;
+            padding-top:50px ;
+
+
+        }
+        #item h5{
+            /* border:  2px solid; */
+            font-size: 150%;
+            padding-left: 100px;
+
+        }
+        #item  div{
+            /* border:  2px solid; */
+            /* display: flex; */
+            width: 1000px;
+            margin-left: 130px;
+           
+
+        }
+        #item  div button{
+            /* border:  2px solid; */
+            display: inline;
+            width: 1000px;
+            background-color:white;
+            
+            padding-right: 600px;
+            
+
+        }
+        footer{
+            /* border:  2px solid;  */
+            height: 480px;
+            background-color:whitesmoke;
+            display: flex;
+            justify-content: space-around; */
+            /* margin-top: 500px; */
+            /* margin-left: 100px; */
+
+
+        }
+        footer>img {
+            /* border:  2px solid;  */
+            height: 50px;
+            width: 120px;
+           margin-top: 20px;
+             margin-left: 100px;
+
+
+        } #footer{
+            /* border:  2px solid; */
+            margin-top: 90px;
+            margin-left: 0px;
+
+            
+
+        }
+       
+          
+
+
+
+
+        #footer1{
+            border:  2px solid;
+           position: absolute;
+           top: 3200px;
+            height: 1o0px;
+
+        }
+     
+     
+
+
+
+
+
+
+        
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+   
